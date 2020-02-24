@@ -168,9 +168,6 @@ class WordTest():
 
         return self.record
 
-    def about():
-        print("Monana喜欢背单词！")
-
     def playSound(self, sound):
         # 播放猜对猜错音效
         #        winsound.PlaySound(sound, winsound.SND_ALIAS)
@@ -218,6 +215,6 @@ class WordTest():
 
 if __name__ == '__main__':
 
-    test1 = WordTest(filename='new.xlsx', start=0, end=15,
+    test1 = WordTest(filename='Words (1).xlsx', start=0, end=40,
                      mode='order', score=False, save=1)
     test1.go()
