@@ -215,6 +215,6 @@ class WordTest():
 
 if __name__ == '__main__':
 
-    test1 = WordTest(filename='Words (1).xlsx', start=0, end=40,
-                     mode='order', score=False, save=1)
+    test1 = WordTest(filename='Words (1).xlsx', start=0, end=20,
+                     mode='random', score=True, save=1)
     test1.go()
